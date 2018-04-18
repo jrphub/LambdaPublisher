@@ -36,10 +36,10 @@ public class App {
 	}
 
 	private static Authentication authorize() {
-		String consumerKey = "EcL6OsfBE9FrFaW6KcH3uUQ8J";
-		String consumerSecret = "ZWNKFBDAKay4DXqdoIUafhiKGQUoa2kdmWI1NH8nSgwCcTYOke";
-		String token = "104394125-YiXvzWIBnufh3OF99XfG3KAY9MmbOiBNGHCSM913";
-		String secret = "U10bCov5D5z70R2oaRdiWsteLXaS3HQGTW6Yx3e5jUt15";
+		String consumerKey = "EcXXXXXXXXXX";
+		String consumerSecret = "ZWNKFBDAKXXXXXXXXXXXXXXXXXXXXX";
+		String token = "1043941XXXXXXXXXXXXXXXXXX";
+		String secret = "U10bXXXXXXXXXXXXXXXXXXXXXXXX";
 		Authentication auth = new OAuth1(consumerKey, consumerSecret, token,
 				secret);
 		return auth;
