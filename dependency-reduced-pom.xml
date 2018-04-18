@@ -29,7 +29,7 @@
               <transformers>
                 <transformer>
                   <manifestEntries>
-                    <Main-Class>com.lambda.producer.Publisher.App</Main-Class>
+                    <Main-Class>com.lambda.producer.LambdaPublisher.App</Main-Class>
                   </manifestEntries>
                 </transformer>
                 <transformer>

@@ -1,4 +1,4 @@
-package com.lambda.producer.Publisher;
+package com.lambda.producer.LambdaPublisher;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

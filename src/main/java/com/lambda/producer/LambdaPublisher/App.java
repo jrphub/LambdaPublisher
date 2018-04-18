@@ -1,4 +1,4 @@
-package com.lambda.producer.Publisher;
+package com.lambda.producer.LambdaPublisher;
 
 import com.twitter.hbc.ClientBuilder;
 import com.twitter.hbc.core.Client;

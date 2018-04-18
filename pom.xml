@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.lambda.producer</groupId>
-	<artifactId>Publisher</artifactId>
+	<artifactId>LambdaPublisher</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>Publisher</name>
+	<name>LambdaPublisher</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
@@ -81,7 +81,7 @@
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
 									<manifestEntries>
-										<Main-Class>com.lambda.producer.Publisher.App</Main-Class>
+										<Main-Class>com.lambda.producer.LambdaPublisher.App</Main-Class>
 									</manifestEntries>
 								</transformer>
 								<transformer
