@@ -6,6 +6,11 @@ import org.apache.kafka.clients.producer.RecordMetadata;
 
 import java.util.Properties;
 
+/**
+ * Sample Code of Kafka Producer
+ *
+ */
+
 public class SimpleProducer {
     private final static String TOPIC = "simple-producer";
     private final static String BROKERS = "localhost:9092";

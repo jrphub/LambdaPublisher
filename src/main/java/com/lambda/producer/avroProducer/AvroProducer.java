@@ -10,6 +10,11 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 
 import java.util.Properties;
 
+/**
+ *
+ * Sample Code for Avro Producer
+ */
+
 public class AvroProducer {
     private final static String TOPIC = "avro-producer";
     private final static String BROKERS = "localhost:9092";
