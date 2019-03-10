@@ -90,7 +90,7 @@ public class App {
     }
 
     public static void main(String... args) throws Exception {
-        System.out.println("Pulling data for " + args[0]);
+        System.out.println("Pulling data for " + args[2]);
         if (args.length == 3) {
             brokers = args[0];
             topic = args[1];
