@@ -26,8 +26,8 @@ public class App {
     //default values
     private static String brokers = "localhost:9092";
     private static String groupId = "tweet-publisher";
-    private static String topic = "tweets-ml-demo";
-    private static String keyword = "#trending";
+    private static String topic = "tweets";
+    private static String keyword = "#ipl";
 
     private static KafkaProducer<String, String> createProducer() {
         Properties props = new Properties();
@@ -87,7 +87,10 @@ public class App {
                     for (int msg = 0; msg <= 150; msg++) {
                         ProducerRecord<String, String> record = new ProducerRecord<String, String>(
                                 topic, Integer.toString(msg), queue.take());
-                        producer.send(record);
+                        System.out.println(record);
+                        for (int i=0; i < 1000; i++) {
+                            producer.send(record);
+                        }
                     }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
