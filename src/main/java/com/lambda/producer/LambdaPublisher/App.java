@@ -88,9 +88,9 @@ public class App {
                         ProducerRecord<String, String> record = new ProducerRecord<String, String>(
                                 topic, Integer.toString(msg), queue.take());
                         System.out.println(record);
-                        for (int i=0; i < 1000; i++) {
+                        //for (int i=0; i < 1000; i++) {
                             producer.send(record);
-                        }
+                        //}
                     }
                 } catch (InterruptedException e) {
                     e.printStackTrace();
